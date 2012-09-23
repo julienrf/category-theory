@@ -1,0 +1,2 @@
+GET     /                           controllers.Application.list
+GET     /:id                        controllers.Application.read(id: Int)
